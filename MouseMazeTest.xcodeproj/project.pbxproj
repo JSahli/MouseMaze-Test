@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E3D34251D4A5B880087B1F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D34241D4A5B880087B1F1 /* main.m */; };
+		9E7EF34F1D8337B9005B5BFB /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF34D1D8337B9005B5BFB /* Mouse.m */; };
+		9E7EF3511D8337C5005B5BFB /* PathPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF3501D8337C5005B5BFB /* PathPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E3D341F1D4A5B880087B1F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E3D34211D4A5B880087B1F1 /* MouseMazeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MouseMazeTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3D34241D4A5B880087B1F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E7EF34C1D8337B9005B5BFB /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
+		9E7EF34D1D8337B9005B5BFB /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
+		9E7EF34E1D8337B9005B5BFB /* PathPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathPoint.h; sourceTree = "<group>"; };
+		9E7EF3501D8337C5005B5BFB /* PathPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E3D341E1D4A5B880087B1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E3D34181D4A5B880087B1F1 = {
+			isa = PBXGroup;
+			children = (
+				9E3D34231D4A5B880087B1F1 /* MouseMazeTest */,
+				9E3D34221D4A5B880087B1F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E3D34221D4A5B880087B1F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E3D34211D4A5B880087B1F1 /* MouseMazeTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E3D34231D4A5B880087B1F1 /* MouseMazeTest */ = {
+			isa = PBXGroup;
+			children = (
+				9E3D34241D4A5B880087B1F1 /* main.m */,
+				9E7EF34C1D8337B9005B5BFB /* Mouse.h */,
+				9E7EF34D1D8337B9005B5BFB /* Mouse.m */,
+				9E7EF34E1D8337B9005B5BFB /* PathPoint.h */,
+				9E7EF3501D8337C5005B5BFB /* PathPoint.m */,
+			);
+			path = MouseMazeTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E3D34201D4A5B880087B1F1 /* MouseMazeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E3D34281D4A5B880087B1F1 /* Build configuration list for PBXNativeTarget "MouseMazeTest" */;
+			buildPhases = (
+				9E3D341D1D4A5B880087B1F1 /* Sources */,
+				9E3D341E1D4A5B880087B1F1 /* Frameworks */,
+				9E3D341F1D4A5B880087B1F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseMazeTest;
+			productName = MouseMazeTest;
+			productReference = 9E3D34211D4A5B880087B1F1 /* MouseMazeTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E3D34191D4A5B880087B1F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sahlitude;
+				TargetAttributes = {
+					9E3D34201D4A5B880087B1F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E3D341C1D4A5B880087B1F1 /* Build configuration list for PBXProject "MouseMazeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E3D34181D4A5B880087B1F1;
+			productRefGroup = 9E3D34221D4A5B880087B1F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E3D34201D4A5B880087B1F1 /* MouseMazeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E3D341D1D4A5B880087B1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3D34251D4A5B880087B1F1 /* main.m in Sources */,
+				9E7EF3511D8337C5005B5BFB /* PathPoint.m in Sources */,
+				9E7EF34F1D8337B9005B5BFB /* Mouse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E3D34261D4A5B880087B1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9E3D34271D4A5B880087B1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9E3D34291D4A5B880087B1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E3D342A1D4A5B880087B1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E3D341C1D4A5B880087B1F1 /* Build configuration list for PBXProject "MouseMazeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E3D34261D4A5B880087B1F1 /* Debug */,
+				9E3D34271D4A5B880087B1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E3D34281D4A5B880087B1F1 /* Build configuration list for PBXNativeTarget "MouseMazeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E3D34291D4A5B880087B1F1 /* Debug */,
+				9E3D342A1D4A5B880087B1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E3D34191D4A5B880087B1F1 /* Project object */;
+}
